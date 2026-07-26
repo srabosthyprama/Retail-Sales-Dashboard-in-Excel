@@ -8,7 +8,7 @@ The dashboard contains **3 pages**:
 2. Regional Performance
 3. Product Performance
 
---
+---
 
 ## 1. Executive Summary
 
