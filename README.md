@@ -9,6 +9,7 @@ The dashboard contains **3 pages**:
 3. Product Performance
 
 
+
 ## 1. Executive Summary
 
 The Executive Summary provides a high-level overview of the overall retail business performance.
@@ -28,6 +29,7 @@ Overall, the business is performing well and is close to achieving its target.
 - **Top 5 Stores:** Rajshahi Kazla Store is the leading store by sales.
 - **Monthly Sales Trend:** Sales show a strong spike around April, potentially influenced by seasonal promotions, before settling into a more stable pattern. Users can switch between **2025 and 2026** to analyze yearly sales trends.
 - **Salesperson Performance:** Rasel Uddin is the top-performing salesperson with sales of **358,680**, while Rumana Rahman is the lowest performer with **114,660**. The significant performance gap between the top and bottom salespeople highlights an opportunity for **sales training and performance improvement**.
+
 
 
 ## 2. Regional Performance
@@ -61,6 +63,7 @@ The analysis shows:
 **Rangpur requires urgent attention**, particularly in improving delivery speed. Reducing delivery times may help improve customer satisfaction and customer ratings in the region.
 
 
+
 ## 3. Product Performance
 
 The Product Performance page analyzes product quantity, sales, profit, profit margin, discount impact, and product-level sales performance.
@@ -87,51 +90,23 @@ A scatter plot is used to analyze the relationship between discount and profit.
 
 The dashboard compares sales and profit across different product categories.
 
-- **Electronics** has the highest sales but a relatively lower profit margin compared to its sales volume.
-- **Home Appliances** shows a similar pattern.
+- **Electronics** has the highest sales but a relatively lower profit compared to its sales volume. **Home Appliances** shows a similar pattern.
 - This suggests that the discount strategy and pricing structure for these categories should be reviewed to improve profitability.
 
 ### Top & Bottom Products
 
-The dashboard highlights the **Top 5 Best-Selling Products**, led by the **Electric Kettle**.
-
-Users can also click the **Bottom** button to view the weakest-performing products.
+The dashboard highlights the **Top 5 Best-Selling Products**, led by the **Electric Kettle**. Users can also click the **Bottom** button to view the weakest-performing products.
 
 ### Product Concentration Insight
 
-The **Top 5 products contribute 37.1% of total sales**.
-
-This indicates a significant dependency on a small group of products.
+The **Top 5 products contribute 37.1% of total sales**. This indicates a significant dependency on a small group of products.
 
 ### Key Recommendation
 
 - Maintain sufficient **safety stock** for the top-performing products to avoid stockouts.
 - Promote alternative products to reduce dependency on a small number of best-selling products.
-- Review pricing and discount strategies for high-sales but lower-margin categories such as Electronics and Home Appliances.
+- Review pricing and discount strategies for high-sales but lower-profit categories such as Electronics and Home Appliances.
 
-
-## Key Business Insights & Recommendations
-
-- **Dhaka** is the strongest-performing region in terms of target achievement and customer satisfaction.
-- **Rangpur** is the weakest-performing region and requires attention to improve delivery speed and customer satisfaction.
-- The performance gap between top and bottom salespeople indicates an opportunity for **sales training and coaching**.
-- **April** shows a significant sales spike, which may be worth investigating for seasonal or promotional opportunities.
-- Discount appears to have a **limited impact on profit**, with an R² of approximately 4%, suggesting that other factors should be explored.
-- **Electronics and Home Appliances** generate strong sales but may require a review of pricing and discount strategies to improve profit margins.
-- The **Top 5 products generate 37.1% of total sales**, indicating product concentration risk.
-- Maintaining **safety stock** for high-performing products and promoting alternative products can help reduce dependency on a small group of products.
-
-
-## Dashboard Pages
-
-### Executive Summary
-Provides an overview of overall business performance, regional target achievement, top stores, monthly sales trends, and salesperson performance.
-
-### Regional Performance
-Analyzes regional sales, target achievement, customer ratings, delivery performance, and the relationship between delivery speed and customer satisfaction.
-
-### Product Performance
-Analyzes product sales, quantity sold, profitability, profit margins, discount impact, category performance, and top and bottom-selling products.
 
 
 ## Tools Used
@@ -140,6 +115,5 @@ Analyzes product sales, quantity sold, profitability, profit margins, discount i
 - Pivot Tables
 - Pivot Charts
 - Slicers
-- Excel Formulas
 - Data Visualization
 - Dashboard Design
