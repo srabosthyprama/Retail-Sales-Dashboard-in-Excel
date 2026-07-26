@@ -1,115 +1,147 @@
 # Retail Sales Dashboard
 
-An interactive retail sales dashboard built to analyze sales, profit, target achievement, regional performance, store performance, sales trends, and product performance.
+An interactive **Retail Sales Dashboard built in Excel** to analyze overall business performance, regional performance, sales trends, customer ratings, delivery performance, salesperson performance, and product profitability.
 
 The dashboard contains **3 pages**:
 
-- Executive Summary
-- Regional Performance
-- Product Performance
+1. Executive Summary
+2. Regional Performance
+3. Product Performance
 
----
 
 ## 1. Executive Summary
 
-The Executive Summary provides an overall view of retail sales performance through **4 KPIs**:
+The Executive Summary provides a high-level overview of the overall retail business performance.
 
-- Total Orders
-- Total Sales
-- Total Profit
-- Target Achievement
+### Key KPIs
 
-### Key Visuals & Insights
+- **Total Orders:** 1,000
+- **Total Sales:** 10.4 million
+- **Total Profit:** 3.4 million
+- **Target Achievement:** 91%
 
-- **Regional Sales, Profit & Target Achievement:** Dhaka achieved the highest target performance, while Rangpur had the lowest target achievement.
-- **Top 5 Stores by Sales:** Highlights the best-performing stores, with an option to switch and view the bottom-performing stores.
-- **Monthly Sales Trend:** Shows sales trends over time, with a year slicer to compare **2025 and 2026**.
-- **Sales Performance:** Highlights the top-performing salespeople and includes a note showing the contribution of the top 10 salespeople compared with the remaining salespeople.
+Overall, the business is performing well and is close to achieving its target.
 
-### Interactive Filters
+### Key Insights
 
-A **Month-Year slicer** allows users to analyze performance for a specific period. For example, selecting **Feb-2025** dynamically updates all KPIs and charts based on the selected period.
+- **Regional Performance:** Dhaka is the best-performing region, achieving over **94%** of its target, while Rangpur is the weakest at around **87%**.
+- **Top 5 Stores:** Rajshahi Kazla Store is the leading store by sales.
+- **Monthly Sales Trend:** Sales show a strong spike around April, potentially influenced by seasonal promotions, before settling into a more stable pattern.
+- **Year Filter:** Users can switch between **2025 and 2026** to analyze yearly sales trends.
+- **Salesperson Performance:** Rasel Uddin is the top-performing salesperson with sales of **358,680**, while Rumana Rahman is the lowest performer with **114,660**.
+- The significant performance gap between the top and bottom salespeople highlights an opportunity for **sales training and performance improvement**.
 
----
 
 ## 2. Regional Performance
 
-The Regional Performance page focuses on comparing performance across different regions.
+The Regional Performance page provides a detailed analysis of sales, target achievement, customer ratings, and delivery performance across different regions.
 
-### KPIs
+### Interactive Region Filter
 
-The page includes the same core KPIs as the Executive Summary:
+The KPIs and visuals dynamically update based on the selected region.
 
-- Total Orders
-- Total Sales
-- Total Profit
-- Target Achievement
+For example, selecting **Khulna** updates the page to display only Khulna's performance.
 
-A **Region slicer** allows users to view KPI values for a specific region. By default, the KPIs show overall performance, but selecting a region such as **Khulna** updates the KPIs to display only Khulna's performance.
+### Key Insights
 
-### Key Visuals & Insights
+- **Customer Ratings:** Dhaka has the highest number of **4–5 star customer ratings**, while Rangpur has the fewest.
+- **Sales vs Target:** The chart compares actual sales against the target. The **outline represents the target**, while the **fill represents actual sales**, making it easy to identify performance gaps.
+- **Average Delivery Days:** Dhaka has the fastest delivery time at approximately **3 days**, while Rangpur has the slowest at approximately **6.4 days**.
 
-- **Regional Rating:** Shows which regions have high, medium, and low customer ratings.
-- **Regional Sales vs Target:** A thermometer chart compares actual sales against the target. The **teal border represents the target**, while the **orange fill represents actual sales**, making it easy to identify regions that have met or fallen short of their targets.
-- **Average Delivery Days:** A bar chart compares the average delivery time across regions.
+### Delivery & Customer Satisfaction
 
-### Regional Insights
+The **View Details** option provides a store-level view of delivery performance.
 
-- **Dhaka** has the lowest average delivery time and also has a higher proportion of **4–5 customer ratings**, indicating a possible relationship between faster delivery and better customer satisfaction.
-- A detailed report shows that stores in Dhaka have average delivery times within approximately **2–3.5 days**, which may contribute to its stronger customer ratings.
-- **Rangpur** has the highest average delivery time, generally between **5–7 days**, and also has the lowest customer ratings.
+The analysis shows:
+
+- Dhaka stores generally have faster delivery times, which aligns with Dhaka having stronger customer ratings.
+- Rangpur has longer delivery times and also has the lowest customer ratings.
+- This suggests that **delivery speed may be an important factor influencing customer satisfaction**.
 
 ### Key Recommendation
 
-The **Rangpur region should be prioritized for improvement**, particularly in reducing delivery times, as its higher delivery duration may be contributing to lower customer satisfaction and ratings.
+**Rangpur requires urgent attention**, particularly in improving delivery speed. Reducing delivery times may help improve customer satisfaction and customer ratings in the region.
 
-The **View Details** option provides a deeper look into delivery time and customer rating patterns across regions.
-
----
 
 ## 3. Product Performance
 
-The Product Performance page focuses on product sales, profitability, discount impact, and product-level performance.
+The Product Performance page analyzes product quantity, sales, profit, profit margin, discount impact, and product-level sales performance.
 
-### KPIs
+### Key KPIs
 
 - Total Quantity Sold
 - Total Sales
 - Total Profit
 - Profit Margin
 
-The KPIs dynamically change based on the selected **Category** and **Month-Year** slicers.
+The KPIs and visuals can be filtered using **Category** and **Month** selections.
 
-### Key Visuals & Insights
+### Discount vs Profit
 
-- **Discount vs Profit:** A scatter plot with a trendline is used to analyze the relationship between discount and profit. The trendline is slightly upward, while the **R² value is 0.0422**, indicating that discount explains approximately **4.2% of the variation in profit** in this analysis. This suggests that discounting has a relatively weak relationship with profit, and other factors may have a greater impact on profitability.
-- **Sales vs Profit by Category:** Compares sales and profit performance across product categories.
-- **Top 10 Best-Selling Products:** Highlights the products generating the highest sales, with an option to switch and view the bottom-performing products.
+A scatter plot is used to analyze the relationship between discount and profit.
 
-### Interactive Filters
+- The trendline is only slightly upward.
+- The **R² value is approximately 4%**.
+- This indicates that discount has a relatively small relationship with profit in this analysis.
+- Other factors are likely to have a greater impact on profitability.
 
-Users can filter the dashboard by:
+### Sales vs Profit by Category
 
-- Product Category
-- Month-Year
+The dashboard compares sales and profit across different product categories.
 
-The KPIs and visualizations update dynamically based on the selected filters.
+- **Electronics** has the highest sales but a relatively lower profit margin compared to its sales volume.
+- **Home Appliances** shows a similar pattern.
+- This suggests that the discount strategy and pricing structure for these categories should be reviewed to improve profitability.
 
----
+### Top & Bottom Products
 
-## Key Business Insights
+The dashboard highlights the **Top 5 Best-Selling Products**, led by the **Electric Kettle**.
 
-- **Dhaka** is the strongest-performing region in terms of target achievement and customer ratings.
-- **Rangpur** requires attention due to its lower target achievement, longer delivery times, and lower customer ratings.
-- Faster delivery appears to be associated with better customer ratings, particularly in Dhaka.
-- The relationship between **discount and profit is relatively weak**, with an R² of **0.0422**, suggesting that other factors should be investigated to understand profitability.
-- The dashboard enables users to identify **top and bottom-performing stores and products** for more focused business analysis.
-- Interactive slicers allow users to explore performance by **region, category, and month-year** and dynamically analyze changes in KPIs and charts.
+Users can also click the **Bottom** button to view the weakest-performing products.
 
----
+### Product Concentration Insight
+
+The **Top 5 products contribute 37.1% of total sales**.
+
+This indicates a significant dependency on a small group of products.
+
+### Key Recommendation
+
+- Maintain sufficient **safety stock** for the top-performing products to avoid stockouts.
+- Promote alternative products to reduce dependency on a small number of best-selling products.
+- Review pricing and discount strategies for high-sales but lower-margin categories such as Electronics and Home Appliances.
+
+
+## Key Business Insights & Recommendations
+
+- **Dhaka** is the strongest-performing region in terms of target achievement and customer satisfaction.
+- **Rangpur** is the weakest-performing region and requires attention to improve delivery speed and customer satisfaction.
+- The performance gap between top and bottom salespeople indicates an opportunity for **sales training and coaching**.
+- **April** shows a significant sales spike, which may be worth investigating for seasonal or promotional opportunities.
+- Discount appears to have a **limited impact on profit**, with an R² of approximately 4%, suggesting that other factors should be explored.
+- **Electronics and Home Appliances** generate strong sales but may require a review of pricing and discount strategies to improve profit margins.
+- The **Top 5 products generate 37.1% of total sales**, indicating product concentration risk.
+- Maintaining **safety stock** for high-performing products and promoting alternative products can help reduce dependency on a small group of products.
+
 
 ## Dashboard Pages
 
-1. **Executive Summary** – Overall business performance and sales trends
-2. **Regional Performance** – Regional sales, target, delivery, and customer rating analysis
-3. **Product Performance** – Product sales, profitability, discount impact, and product ranking analysis
+### Executive Summary
+Provides an overview of overall business performance, regional target achievement, top stores, monthly sales trends, and salesperson performance.
+
+### Regional Performance
+Analyzes regional sales, target achievement, customer ratings, delivery performance, and the relationship between delivery speed and customer satisfaction.
+
+### Product Performance
+Analyzes product sales, quantity sold, profitability, profit margins, discount impact, category performance, and top and bottom-selling products.
+
+
+## Tools Used
+
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Excel Formulas
+- Data Visualization
+- Dashboard Design
