@@ -10,6 +10,22 @@ The dashboard contains **3 pages**:
 
 ---
 
+## Dashboard Preview
+
+### Executive Summary
+
+<img width="1361" height="766" alt="Executive Summary" src="https://github.com/user-attachments/assets/7b398d05-be12-4458-ba7e-f25dd79ba97c" />
+
+### Regional Performance
+
+<img width="1362" height="765" alt="Regional Performance" src="https://github.com/user-attachments/assets/1ac22c39-993f-4908-ade7-64d0517e73c9" />
+
+### Product Performance
+
+<img width="1362" height="766" alt="Product Performance" src="https://github.com/user-attachments/assets/3d307ea1-0a8d-4b74-aa81-6475fc7be8fb" />
+
+---
+
 ## 1. Executive Summary
 
 The Executive Summary provides a high-level overview of the overall retail business performance.
