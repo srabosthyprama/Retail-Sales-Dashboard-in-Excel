@@ -77,8 +77,7 @@ The KPIs and visuals can be filtered using **Category** and **Month** selections
 
 A scatter plot is used to analyze the relationship between discount and profit.
 
-- The trendline is only slightly upward.and the **R² value is approximately 4%**.
-  This indicates that discount has a relatively small relationship with profit in this analysis. Other factors are likely to have a greater impact on profitability.
+- The trendline is only slightly upward.and the **R² value is approximately 4%**. This indicates that discount has a relatively small relationship with profit in this analysis. Other factors are likely to have a greater impact on profitability.
 
 ### Sales vs Profit by Category
 
