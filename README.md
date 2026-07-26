@@ -30,7 +30,7 @@ Overall, the business is performing well and is close to achieving its target.
 - **Monthly Sales Trend:** Sales show a strong spike around April, potentially influenced by seasonal promotions, before settling into a more stable pattern. Users can switch between **2025 and 2026** to analyze yearly sales trends.
 - **Salesperson Performance:** Rasel Uddin is the top-performing salesperson with sales of **358,680**, while Rumana Rahman is the lowest performer with **114,660**. The significant performance gap between the top and bottom salespeople highlights an opportunity for **sales training and performance improvement**.
 
-
+---
 
 ## 2. Regional Performance
 
@@ -38,9 +38,7 @@ The Regional Performance page provides a detailed analysis of sales, target achi
 
 ### Interactive Region Filter
 
-The KPIs dynamically update based on the selected region.
-
-For example, selecting **Khulna** updates the KPIs to display only Khulna's performance.
+The KPIs dynamically update based on the selected region. For example, selecting **Khulna** updates the KPIs to display only Khulna's performance.
 
 ### Key Insights
 
@@ -50,9 +48,7 @@ For example, selecting **Khulna** updates the KPIs to display only Khulna's perf
 
 ### Delivery & Customer Satisfaction
 
-The **View Details** option provides a store-level view of delivery performance.
-
-The analysis shows:
+The **View Details** option provides a store-level view of delivery performance. The analysis shows:
 
 - Dhaka stores generally have faster delivery times, which aligns with Dhaka having stronger customer ratings.
 - Rangpur has longer delivery times and also has the lowest customer ratings.
@@ -62,7 +58,7 @@ The analysis shows:
 
 **Rangpur requires urgent attention**, particularly in improving delivery speed. Reducing delivery times may help improve customer satisfaction and customer ratings in the region.
 
-
+---
 
 ## 3. Product Performance
 
@@ -81,17 +77,15 @@ The KPIs and visuals can be filtered using **Category** and **Month** selections
 
 A scatter plot is used to analyze the relationship between discount and profit.
 
-- The trendline is only slightly upward.
-- The **R² value is approximately 4%**.
-- This indicates that discount has a relatively small relationship with profit in this analysis.
-- Other factors are likely to have a greater impact on profitability.
+- The trendline is only slightly upward.and the **R² value is approximately 4%**.
+  This indicates that discount has a relatively small relationship with profit in this analysis. Other factors are likely to have a greater impact on profitability.
 
 ### Sales vs Profit by Category
 
 The dashboard compares sales and profit across different product categories.
 
 - **Electronics** has the highest sales but a relatively lower profit compared to its sales volume. **Home Appliances** shows a similar pattern.
-- This suggests that the discount strategy and pricing structure for these categories should be reviewed to improve profitability.
+  This suggests that the discount strategy and pricing structure for these categories should be reviewed to improve profitability.
 
 ### Top & Bottom Products
 
@@ -107,7 +101,7 @@ The **Top 5 products contribute 37.1% of total sales**. This indicates a signifi
 - Promote alternative products to reduce dependency on a small number of best-selling products.
 - Review pricing and discount strategies for high-sales but lower-profit categories such as Electronics and Home Appliances.
 
-
+---
 
 ## Tools Used
 
