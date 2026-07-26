@@ -26,10 +26,8 @@ Overall, the business is performing well and is close to achieving its target.
 
 - **Regional Performance:** Dhaka is the best-performing region, achieving over **94%** of its target, while Rangpur is the weakest at around **87%**.
 - **Top 5 Stores:** Rajshahi Kazla Store is the leading store by sales.
-- **Monthly Sales Trend:** Sales show a strong spike around April, potentially influenced by seasonal promotions, before settling into a more stable pattern.
-- **Year Filter:** Users can switch between **2025 and 2026** to analyze yearly sales trends.
-- **Salesperson Performance:** Rasel Uddin is the top-performing salesperson with sales of **358,680**, while Rumana Rahman is the lowest performer with **114,660**.
-- The significant performance gap between the top and bottom salespeople highlights an opportunity for **sales training and performance improvement**.
+- **Monthly Sales Trend:** Sales show a strong spike around April, potentially influenced by seasonal promotions, before settling into a more stable pattern. Users can switch between **2025 and 2026** to analyze yearly sales trends.
+- **Salesperson Performance:** Rasel Uddin is the top-performing salesperson with sales of **358,680**, while Rumana Rahman is the lowest performer with **114,660**. The significant performance gap between the top and bottom salespeople highlights an opportunity for **sales training and performance improvement**.
 
 
 ## 2. Regional Performance
@@ -38,9 +36,9 @@ The Regional Performance page provides a detailed analysis of sales, target achi
 
 ### Interactive Region Filter
 
-The KPIs and visuals dynamically update based on the selected region.
+The KPIs dynamically update based on the selected region.
 
-For example, selecting **Khulna** updates the page to display only Khulna's performance.
+For example, selecting **Khulna** updates the KPIs to display only Khulna's performance.
 
 ### Key Insights
 
